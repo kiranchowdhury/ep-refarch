@@ -11,10 +11,10 @@ Reference architecture of ePricer using Angular and NetflixOSS microservice-base
 ePricer is one of the largest enterprise's worldwide global tools that provides uniform and consistent pricing solutions for their produces and services. ePricer provides awesome UI to create quotation for end user customers quickly and effectively.
 This architecture has been adopted to build ePricer from a Monolith to micro-service based by isolating each of the business components from the whole unit and expose them as  micro-services so that they can exist independently and deployed independently. 
 
-##ePricer Components
+##ePricer UI
 UI Components:- The UI components are designed as Single Page Application using [Angular5](https://angular.io/) framework. It also uses [Angular Material Design] for various UI components, [NPM](https://github.com/npm/npm) as package manager, [TypeScript](https://github.com/Microsoft/TypeScript) and [Webpack](https://github.com/webpack/webpack) as module loader.
 
-## Features - Technical
+### Frontend Features - Technical
 - [x] TypeScript
 - [x] TSLint
 - [x] @types
@@ -33,7 +33,7 @@ UI Components:- The UI components are designed as Single Page Application using 
 - [x] angular-material and custom components in `SharedModule`
 - [x] Production build containing chunks
 
-
+##ePricer Bankend Components
 Micro-service Components - There are several micro-services of ePricer and the individual microservices communicate to each other using the [Netflix OSS Framework](https://netflix.github.io/).
 
 ## Project Component Repositories
@@ -58,5 +58,17 @@ Resiliency Components:
 
 DevOps Components:
 [IC Toolchain](https://git.ng.bluemix.net/epricer-pocs/ep-devops-container.git) - A one click full deployment process which will create a toolchain for the IBM Bluemix CKubernetes ontainers version of this architecture
+
+## Screens
+
+  ![Login](static/imgs/login.jpg?raw=true)
+  ![Role Selection](static/imgs/RoleSelection.jpg?raw=true)
+  ![Nav Bar](static/imgs/nav.jpg?raw=true)
+  ![Search Quotes](static/imgs/searchquote.jpg?raw=true)
+  ![Search Quotes - Refine By capabilities](static/imgs/search_refineby.jpg?raw=true)
+  ![Quote Editor](static/imgs/quote editor.jpg?raw=true)
+  ![Manage Configuration](static/imgs/manageconfig_config_data.jpg?raw=true)
+  ![Upload Configuration](static/imgs/uploadconfig.jpg?raw=true)
+  ![Cognitive Pricing](static/imgs/cognitivepricing.jpg?raw=true)
 
 
